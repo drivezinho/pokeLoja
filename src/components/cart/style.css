@@ -1,0 +1,25 @@
+#cart ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+#cart li {
+  color: white;
+  display: flex;
+  text-transform: capitalize;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  background:rgb(46, 81, 189);
+  margin-bottom: 5px;
+}
+
+#cart li img {
+  width: 60px;
+}
+
+#cart li strong {
+  margin-left: 25px;
+}
