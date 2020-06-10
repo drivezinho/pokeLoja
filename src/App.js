@@ -54,12 +54,12 @@ function App() {
       </main>
       <div className="shopp">
         <div className="cart">
-          <h3>
+          <h2>
             Carrinho
-          </h3>
+          </h2>
           <Cart selectedPokemons={selectedPokemons}/>
           <div className="Total">
-            Total:{pokemonPrice}
+            <h3>Total:{pokemonPrice}</h3>
           </div>
         </div>
       </div>

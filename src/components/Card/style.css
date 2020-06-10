@@ -49,3 +49,8 @@
     background-color: rgb(49, 151, 49);
     border: 0.1rem #808080 solid;
 }
+
+button:hover{
+    background-color: #2fb86e;
+    transition: 400ms;
+}
