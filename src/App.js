@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { getAllPokemon, getPokemon } from './services/pokemon';
 import Card from './components/Card/Card';
 import Cart from './components/cart/Cart'
-import './App.css';
+import './components/shopp/shopp.css';
 
 
 function App() {
@@ -52,7 +52,7 @@ function App() {
           })}
         </div>
       </main>
-      <div className="shopp">
+      <shopp className="shopp">
         <div className="cart">
           <h2>
             Carrinho
@@ -62,7 +62,7 @@ function App() {
             <h3>Total:{pokemonPrice}</h3>
           </div>
         </div>
-      </div>
+      </shopp>
       <footer className="footer">
         All right reserved
       </footer>

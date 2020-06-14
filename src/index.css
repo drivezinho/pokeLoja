@@ -42,14 +42,10 @@ main{
   flex:3 60rem;
 }
 
-.shopp{
+shopp{
   grid-area: shopp;
-  height: 100%;
-  background-color: rgb(23, 53, 143);
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
 }
+
 
 .footer{
   grid-area: footer;
@@ -59,14 +55,7 @@ main{
   justify-content: center;
   align-items: center;
 }
-h3, h2{
-  color: #e8e6e3;
-}
-.Total{
-  color: #e8e6e3;
-  border: 5px;
-  display: flex;
-}
+
 .conteudo{
   grid-area: conteudo;
   background-color:#000080;
@@ -74,9 +63,4 @@ h3, h2{
   height: 100%;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
-.cart-container{
-  padding: 0;
-  list-style-type: none;
-  padding: 1rem;
 }
